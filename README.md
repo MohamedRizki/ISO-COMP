@@ -24,7 +24,7 @@ IsoComp follows a classic **client–server architecture** split between a web f
 
 The diagram below provides a high-level overview of the system architecture:
 
-![Application Architecture](Diagrammes/diag1.png)
+![Application Architecture](diagrammes/diag1.png)
 
 In this architecture, the front-end and back-end communicate via HTTP. The heavy lifting (API calls, data crunching) is done server-side to avoid exposing API keys and to leverage Python's geospatial libraries. The front-end remains lightweight, only handling user interaction and rendering.
 
@@ -43,7 +43,7 @@ From a user's perspective, using IsoComp involves a few simple steps. Internally
 
 The sequence diagram below illustrates the interaction between the user, the front-end, and the back-end for a typical scenario of generating isochrones and then downloading a report:
 
-![The sequence diagram](Diagrammes/diag2.png)
+![The sequence diagram](diagrammes/diag2.png)
 
 ## Metrics Compared 
 IsoComp evaluates each isochrone result using several **metrics** to provide a well-rounded comparison:
@@ -71,7 +71,7 @@ Each metric is calculated using standard geospatial methods. For instance, area 
   - **Here Isochrone API** 
 
 ## Application interface :
-![Application Architecture](Diagrammes/Application.JPG)
+![Application Architecture](diagrammes/Application.JPG)
 
 
 ## Project Team :
